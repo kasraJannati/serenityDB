@@ -1,0 +1,31 @@
+{
+  "name": "serenity-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.3",
+    "@strapi/plugin-users-permissions": "4.0.3",
+    "@strapi/strapi": "4.0.3",
+    "sqlite3": "5.0.2",
+    "strapi-connector-mongoose": "^3.6.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "307385d5-8020-4ad4-958d-64e4565147da"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
