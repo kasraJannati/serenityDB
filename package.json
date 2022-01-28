@@ -1,5 +1,5 @@
 {
-  "name": "serenity-backend",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,18 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.3",
-    "@strapi/plugin-users-permissions": "4.0.3",
-    "@strapi/strapi": "4.0.3",
-    "pg": "^8.7.1",
-    "sqlite3": "5.0.2",
-    "strapi-connector-mongoose": "^3.6.8"
+    "@strapi/strapi": "4.0.5",
+    "@strapi/plugin-users-permissions": "4.0.5",
+    "@strapi/plugin-i18n": "4.0.5",
+    "pg": "8.6.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "307385d5-8020-4ad4-958d-64e4565147da"
+    "uuid": "2dacd97b-0d2e-4906-b74c-4456ed967f30"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
